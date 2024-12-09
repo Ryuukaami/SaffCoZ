@@ -1,0 +1,319 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Styles */
+header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.logo img {
+    max-height: 60px;
+    width: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #8B4513;
+}
+
+/* Newest Perfume Banner */
+.newest-banner {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.newest-banner .banner-content {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.newest-banner h1 {
+    color: #8B4513;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.newest-banner h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.newest-banner .banner-image {
+    flex: 1;
+}
+
+.newest-banner img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #8B4513;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    margin-top: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #6B3E23;
+}
+
+/* Discount Banner */
+.discount-banner {
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: #f9f9f9;
+}
+
+.discount-banner h2 {
+    color: #4B0082;
+    margin-bottom: 1.5rem;
+}
+
+.discount-products {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.discount-item {
+    text-align: center;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.discount-item:hover {
+    transform: translateY(-10px);
+}
+
+.discount-item img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.discount-button {
+    display: inline-block;
+    background-color: #4B0082;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.discount-button:hover {
+    background-color: #360A5E;
+}
+
+/* Best Sellers Section */
+.best-sellers {
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: white;
+}
+
+.best-sellers h2 {
+    color: #2E8B57;
+    margin-bottom: 1.5rem;
+}
+
+.best-seller-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.best-seller-item {
+    max-width: 250px;
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.best-seller-item:hover {
+    transform: translateY(-10px);
+}
+
+.best-seller-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.product-button {
+    display: inline-block;
+    background-color: #2E8B57;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.product-button:hover {
+    background-color: #1E5E3B;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 3rem 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    max-height: 80px;
+    width: auto;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #ddd;
+}
+
+.footer-social .social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icon {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #ddd;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #555;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav, .newest-banner, .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .newest-banner {
+        padding: 2rem 1rem;
+    }
+
+    .newest-banner .banner-content,
+    .newest-banner .banner-image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .newest-banner .banner-content {
+        padding-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .discount-products,
+    .best-seller-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-content > div {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+}
