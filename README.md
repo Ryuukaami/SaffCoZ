@@ -1,2 +1,2 @@
 # SaffCoZ
-An fictional perfume seller website I made for fun
+A fictional perfume seller website I made for fun
