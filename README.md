@@ -1,2 +1,2 @@
 # SaffCoZ
-HCI Sigma Figma Ligma Balls HMM
+An fictional perfume seller website I made for fun
